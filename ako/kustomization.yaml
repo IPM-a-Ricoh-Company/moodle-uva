@@ -7,8 +7,8 @@ resources:
 # AVI AKO helm chart
 helmChartInflationGenerator:
 - chartName: ako
-  chartRepoUrl: https://projects.registry.vmware.com/chartrepo/ako
-  chartVersion: 1.6.1
+  chartRepoUrl: oci://projects.registry.vmware.com/ako/helm-charts/ako
+  chartVersion: 1.10.3
   releaseName: ako
   releaseNamespace: avi-system
   values: ako-values.yaml

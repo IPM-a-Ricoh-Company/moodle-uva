@@ -3,4 +3,4 @@ apiVersion: v1
 metadata:
   name: avi-system
   labels:
-    name: avi-ako
+    pod-security.kubernetes.io/enforce: privileged
